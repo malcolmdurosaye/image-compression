@@ -3,7 +3,7 @@ import PIL
 from PIL import Image
 from tkinter.filedialog import *
 
-# Ask users the location of the image file in their directory
+# Ask users for the location of the image file in their directory
 file_path = askopenfilename()
 img = PIL.Image.open(file_path)
 myHeight, myWidth = img.size
